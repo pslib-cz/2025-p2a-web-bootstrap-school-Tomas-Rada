@@ -1,0 +1,13 @@
+Syntaxe:
+
+m- → margin na všech stranách
+
+mt- → margin-top
+
+mb- → margin-bottom
+
+ms- → margin-left (start)
+
+me- → margin-right (end)
+
+Velikosti: 0, 1, 2, 3, 4, 5

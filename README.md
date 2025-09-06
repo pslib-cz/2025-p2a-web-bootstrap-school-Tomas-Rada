@@ -89,7 +89,8 @@ a to s hodnotou
 + **vite build**
   - Spustí build Vite projektu do složky _/dist_.
 + **--base=/nazev-vaseho-repozitare/**
-  - Určuje základní URL cestu, která je potřeba pro správné načítání souborů na GitHub Pages (kde je web dostupný pod https://vas-username.github.io/nazev-vaseho-repozitare/)
+  - Určuje základní URL cestu, která je potřeba pro správné načítání souborů na GitHub Pages (kde je web dostupný pod https://Tomas-Rada.github.io/2025-p2a-web-bootstrap-school-Tomas-Rada/)
+                                                                                                                      2025-p2a-web-bootstrap-school-
 + **gh-pages -d dist**
   - Nasadí obsah složky dist na gh-pages větev v GitHub repozitáři. Díky tomu se web zobrazí na GitHub Pages.
    
