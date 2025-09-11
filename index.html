@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="cs">
 
 <head>
   <meta charset="UTF-8" />
@@ -18,7 +18,7 @@
 
     <nav class="navbar navbar-expand-lg fixed-top border bg-white ">
       <div class="container">
-        <img src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M60%20120C93.1371%20120%20120%2093.1371%20120%2060C120%2026.8629%2093.1371%200%2060%200C26.8628%200%200%2026.8629%200%2060C0%2093.1371%2026.8628%20120%2060%20120ZM78.7179%2027.9505C79.629%2024.7142%2076.4883%2022.8004%2073.62%2024.8439L33.5793%2053.3688C30.4686%2055.5849%2030.9579%2060%2034.3143%2060H44.8581V59.9184H65.4075L48.6636%2065.8263L41.2821%2092.0496C40.371%2095.286%2043.5114%2097.1997%2046.38%2095.1561L86.4207%2066.6315C89.5314%2064.4154%2089.0418%2060%2085.6857%2060H69.6963L78.7179%2027.9505Z'%20fill='%23F5841F'/%3e%3c/svg%3e" class="m-3" alt="logo img-fluid" width="50" height="50">
+        <img src="data:image/svg+xml,%3csvg%20width='120'%20height='120'%20viewBox='0%200%20120%20120'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M60%20120C93.1371%20120%20120%2093.1371%20120%2060C120%2026.8629%2093.1371%200%2060%200C26.8628%200%200%2026.8629%200%2060C0%2093.1371%2026.8628%20120%2060%20120ZM78.7179%2027.9505C79.629%2024.7142%2076.4883%2022.8004%2073.62%2024.8439L33.5793%2053.3688C30.4686%2055.5849%2030.9579%2060%2034.3143%2060H44.8581V59.9184H65.4075L48.6636%2065.8263L41.2821%2092.0496C40.371%2095.286%2043.5114%2097.1997%2046.38%2095.1561L86.4207%2066.6315C89.5314%2064.4154%2089.0418%2060%2085.6857%2060H69.6963L78.7179%2027.9505Z'%20fill='%23F5841F'/%3e%3c/svg%3e" class="m-3" alt="logo" width="50" height="50">
         <h1 class="fw-bold navbar-brand">SOŠ Digital</h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ds">
           <span class="navbar-toggler-icon"></span>
@@ -43,14 +43,14 @@
 
 
 
-    <section id="Úvod " class="bg-white py-5">
+    <section id="Úvod" class="bg-white py-5">
       <div class="container">
         <div class="row align-items-stretch">
           <div class=" d-flex flex-column justify-content-center">
             <p><span class="badge bg-warning text-black m-2">Fiktivní ukázkový Web</span></p>
             <h1 class="p-3 fw-bold">Střední odborná škola Digital</h1>
             <p class="fw-light fs-4 p-3">Moderní vzdělávání v IT, designu a digitálních médiích. Studujte u nás, jsme
-              vašejednička!</p>
+              vaše jednička!</p>
           </div>
           <div class="container">
             <button class="rounded btn btn-primary ms-2 ">Studijní obory</button>
@@ -64,7 +64,7 @@
             </div>
             <div class="col-4">
               <p class="m-0 fw-bold fs-4">150</p>
-              <pc class="text-secondary">Let zkušeností</pc>
+              <p class="text-secondary">Let zkušeností</p>
             </div>
             <div class="col-4">
               <p class="m-0 fw-bold fs-4">99%</p>
@@ -107,7 +107,7 @@
           <div class="col-md-6 text-end">
             <form class="d-flex justify-content-end">
               <input class="form-control w-50 me-2" type="text" placeholder="Search...">
-              <button class="btn btn-secundary border-secondary" type="submit">Hledat</button>
+              <button class="btn btn-secondary border-secondary" type="submit">Hledat</button>
             </form>
           </div>
 
@@ -154,7 +154,7 @@
 
       </div>
 
-      <div class="conteiner d-flex justify-content-center">
+      <div class="container d-flex justify-content-center">
         <div class="container">
           <ul class="pagination">
             <li class="page-item">
@@ -244,7 +244,7 @@
       </p>
 
 
-      <div class="carousel slide rounded shadow" data-bs-ride="carousel">
+      <div id="galerieCarousel" class="carousel slide rounded shadow" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/2025-p2a-web-bootstrap-school-Tomas-Rada/assets/aula-CnZN5uR0.webp" class="d-block w-100 rounded" alt="Obrázek 1" width="540" height="400">
@@ -271,7 +271,7 @@
   <section id="Dotazy" class="py-5 bg-white">
     <div class="container">
       <h2 class="mb-4 ">Časté dotazy</h2>
-      <div class="accordion">
+      <div class="accordion" id="faqAccordion">
         <div class="accordion-item">
           <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
@@ -443,7 +443,7 @@
       <h5>Odběr novinek</h5>
       <form action="">
         <div class="mb-3">
-          <input type="text" id="jmeno" class="form-control" required placeholder="Váš e-mail">
+          <input type="text" id="e-mailNovinky" class="form-control" required placeholder="Váš e-mail">
           <button type="submit" class="  my-2 btn btn-primary rounded w-100">Odebírat</button>
         </div>
       </form>
